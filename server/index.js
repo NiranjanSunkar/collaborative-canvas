@@ -18,7 +18,7 @@ const CLIENT_URL = process.env.CLIENT_URL || 'https://collaborative-canvas-1-be5
 // 2. Initialize Socket.io with the 'server' variable defined above
 const io = new Server(server, {
   cors: {
-    origin: CLIENT_URL,
+    origin: "https://collaborative-canvas-1-be5h.onrender.com",
     methods: ["GET", "POST"]
   }
 });
