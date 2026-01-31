@@ -13,7 +13,7 @@ app.use(cors());
 const server = http.createServer(app); 
 
 const PORT = process.env.PORT || 3001;
-const CLIENT_URL = process.env.CLIENT_URL || 'http://localhost:3000';
+const CLIENT_URL = process.env.CLIENT_URL || 'https://collaborative-canvas-1-be5h.onrender.com';
 
 // 2. Initialize Socket.io with the 'server' variable defined above
 const io = new Server(server, {
