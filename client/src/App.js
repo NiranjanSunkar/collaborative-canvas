@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import { useCanvas } from './hooks/useCanvas';
 import './styles.css';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://collaborative-canvas-a1ls.onrender.com');
 
 function App() {
   const mainCanvasRef = useRef(null);
